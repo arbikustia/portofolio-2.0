@@ -1,0 +1,82 @@
+.portofolio {
+    color: #000;
+    width: 80vw;
+    height: 90vh;
+    background: rgba(211, 211, 211, 0.86);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.1px);
+    -webkit-backdrop-filter: blur(12.1px);
+    position: absolute;
+    top: 5vh;
+    left: 10vw;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    overflow: hidden;
+    display: none;
+}
+
+
+.content-porto {
+    width: 97%;
+    height: 80%;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem 0rem;
+    overflow: auto;
+}
+
+.card-porto {
+    width: 45%;
+    height: 50%;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.card-porto img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.card-porto:hover {
+    box-shadow: 3px 4px 14px -5px rgba(0, 0, 0, 0.53);
+    -webkit-box-shadow: 3px 4px 14px -5px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 3px 4px 14px -5px rgba(0, 0, 0, 0.53);
+}
+
+
+@media (max-width: 884px) {
+    .content-porto{
+        width: 90%;
+    }
+    .card-porto{
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media (max-width: 429px){
+    .portofolio{
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
+    .content-porto{
+        width: 80%;
+    }
+}

@@ -1,0 +1,209 @@
+.skill {
+    color: #000;
+    width: 80vw;
+    height: 90vh;
+    background: rgba(211, 211, 211, 0.86);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.1px);
+    -webkit-backdrop-filter: blur(12.1px);
+    position: absolute;
+    top: 5vh;
+    left: 10vw;
+    z-index: 9999999;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    overflow: hidden;
+    display: none;
+}
+
+.skill-wraper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.animate-skill {
+    width: 30%;
+    height: 92%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: .6rem;
+}
+
+.diagram{
+    width: 15rem;
+    height: 1rem;
+    border: 1px solid rgb(207, 207, 207);
+    display: flex;
+    background-color: rgb(207, 207, 207);
+}
+
+.skill-html{
+    height: 1rem;
+    width: 95%;
+    background-color: red;
+}
+.skill-css{
+    height: 1rem;
+    width: 90%;
+    background-color: red;
+}
+.skill-js{
+    height: 1rem;
+    width: 85%;
+    background-color: red;
+}
+.skill-react{
+    height: 1rem;
+    width: 90%;
+    background-color: red;
+}
+.skill-bootstrap{
+    height: 1rem;
+    width: 65%;
+    background-color: red;
+}
+.skill-ps{
+    height: 1rem;
+    width: 50%;
+    background-color: red;
+}
+.skill-ai{
+    height: 1rem;
+    width: 50%;
+    background-color: red;
+}
+.skill-figma{
+    height: 1rem;
+    width: 80%;
+    background-color: red;
+}
+
+.list-skill-wraper {
+    width: 75%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-skill {
+    width: 80%;
+    height: auto;
+    background-color: #FFF;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem 1rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    gap: 2vw;
+    justify-content: center;
+    line-height: 1rem;
+    align-items: center;
+}
+
+.list-skill svg {
+    font-size: 6rem;
+}
+
+.html {
+    color: #DD4B25;
+}
+
+.css {
+    color: #2862E9;
+}
+
+.js {
+    color: #E9D34C;
+}
+
+.react {
+    color: #5CCFEE;
+}
+
+.bootstrap {
+    color: #670FE8;
+}
+
+.ps svg {
+    color: #0A004B;
+    background-color: #91BCF2;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.ai svg {
+    color: #360100;
+    background-color: #F79500;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+
+@media (max-width: 885px) {
+    .skill-wraper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .animate-skill {
+        width: 100%;
+        height: 30%;
+    }
+
+    .list-skill-wraper {
+        width: 100%;
+        height: 70%;
+    }
+
+    .list-skill {
+        width: 100%;
+        height: 50%;
+    }
+
+    .list-skill svg {
+        font-size: 6rem;
+    }
+}
+
+@media (max-height: 667px) {
+    .list-skill svg {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 429px) {
+    .skill {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    .list-skill svg {
+        font-size: 4rem;
+    }
+
+    .diagram{
+        width: 10rem;
+    }
+}

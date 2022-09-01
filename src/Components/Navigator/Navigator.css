@@ -1,0 +1,88 @@
+.navigator {
+    width: 100vw;
+    height: 10vh;
+    background-color: transparent;
+    position: fixed;
+    bottom: 0rem;
+    z-index: 9999999888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-wrap {
+    width: auto;
+    height: 100%;
+    padding: 0 1rem;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    background: rgba(255, 255, 255, 0.52);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+.card {
+    width: 2rem;
+    height: 2rem;
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+#about {
+    background-image: url(../../assets/about.jpg);
+    background-position: center;
+    background-size: contain;
+    
+}
+
+#portofolio {
+    background-image: url(../../assets/portofolio.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+#skill {
+    background-image: url(../../assets/skill.png);
+    background-position: center;
+    background-size: contain;
+}
+
+#contact {
+    background-image: url(../../assets/contact.png);
+    background-position: center;
+    background-size: contain;
+}
+
+
+@media (max-width: 429px){
+    .navigator{
+        z-index: 999;
+    }
+    .nav-wrap{
+        width: 100vw;
+    }
+    .card{
+        width: 3rem;
+        height: 3rem;
+    }
+}
